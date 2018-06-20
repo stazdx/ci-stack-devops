@@ -1,0 +1,10 @@
+web_addr: 0.0.0.0:4040
+tunnels:
+  mb-home-jenkins:
+    addr: 18080
+    proto: http
+    hostname: mb-home-jenkins.ngrok.com
+  mb-home-nexus:
+    addr: 18081
+    proto: http
+    hostname: mb-home-nexus.ngrok.com
